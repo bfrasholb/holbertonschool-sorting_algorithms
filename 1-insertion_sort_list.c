@@ -28,9 +28,8 @@ void swap_nodes(listint_t **list, listint_t *left, listint_t *right)
 }
 
 /**
- * bubble_sort- sorts an array of integers in ascending order using bubble sort
- * @array: pointer to the array to sort
- * @size: the size of the array
+ * insertion_sort_list- insertion sorts a list
+ * @list: pointer to the array to sort
  */
 
 void insertion_sort_list(listint_t **list)
